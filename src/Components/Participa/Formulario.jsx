@@ -57,7 +57,7 @@ function Formulario() {
                 <input 
                     type="text" 
                     name="acto" 
-                    placeholder="acto Example: payaso, trapecio,malabares..." 
+                    placeholder="acto: payaso, trapecio,malabares..." 
                     className='campo' 
                     onChange={handleInputChange} 
                     required
