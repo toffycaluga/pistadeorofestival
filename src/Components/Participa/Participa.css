@@ -22,6 +22,9 @@
     font-size: 35px;
     color:darkred;
 }
+.participate .container-form img{
+    width: 90%;
+}
 .participate .container-form p{
     font-size:17px;
     line-height: 1.6;
