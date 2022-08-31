@@ -10,6 +10,7 @@ import Nav from './Components/Nav/Nav'
 import Jury from './Components/Jury/Jury';
 import Participa from './Components/Participa/Participa';
 import NotFound from './Components/NotFound/NotFound';
+import Festival from './Components/Festival/Festival';
 
 function App() {
   return (
