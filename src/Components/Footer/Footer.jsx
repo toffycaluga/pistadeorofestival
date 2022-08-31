@@ -36,7 +36,7 @@ function Footer() {
             </div>
         </div>
         <div className="group-2">
-            <small>&copy; 2022 <b>Pista de Oro Festival</b> -Todos los derechos reservados</small>
+            <small>&copy; 2022 <b>Pista de Oro Festival</b> -Todos los derechos reservados</small><br />
             <small>Powered By: <b>Toffy Caluga</b></small>
         </div>
    </div>
