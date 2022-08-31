@@ -61,11 +61,17 @@
 .footer .group-2{
     background-color: #0a1a2a;
     padding:15px 10px;
-    text-align: center;
+    /* text-align: center; */
     color:#fff;
 }
 footer .group-2 small{
     font-size:15px;
+}
+.footer .group-2 .marca{
+    position:relative;
+    text-align:right;}
+.footer .group-2 img{
+    width: 35px;
 }
 
 @media screen and (max-width:800px){

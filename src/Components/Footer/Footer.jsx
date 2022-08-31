@@ -4,6 +4,7 @@ import logo_sindicato from './../../assets/img/icons/logo_sindicato.png';
 import fed_lat from './../../assets/img/icons/fed_lat.png';
 import fed_mun from './../../assets/img/icons/fed_mun.png';
 import mincul from './../../assets/img/icons/mincul.png';
+import toffy from './../../assets/img/icons/toffy.png';
 
 function Footer() {
   return (
@@ -37,7 +38,10 @@ function Footer() {
         </div>
         <div className="group-2">
             <small>&copy; 2022 <b>Pista de Oro Festival</b> -Todos los derechos reservados</small><br />
-            <small>Powered By: <b>Toffy Caluga</b></small>
+            <div className="marca">
+
+            <small> Powered By:<b>Toffy Caluga</b></small><img src={toffy} alt="toffy caluga"  className='toffy'/> 
+            </div>
         </div>
    </div>
   )
