@@ -1,0 +1,28 @@
+.link-ubicacion{
+    background-color: rgba(255,255,255,0.5);
+}
+
+.ubicacion-circo img{
+    width:50%;
+    /* margin-left: -50%; */
+}
+
+.ubicacion-circo p{
+    margin-left: -30%;
+    display:contents;
+
+}
+.touch{
+width: 10%;
+height: 10%;
+}
+.click{
+    width: 10%;
+    margin-top: 180px;
+    margin-left: -70px;
+}
+@media screen and (max-width:800px){
+    .ubicacion-circo a{
+        padding: 10px;
+    }
+}

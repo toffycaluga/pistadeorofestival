@@ -1,0 +1,10 @@
+.jury h1{
+    color: darkred;
+    /* font-size:35px; */
+    font-weight:bold;
+    padding: 45px 15px;
+}
+.jury .jury-row{
+    width: 80%p;
+    padding: 35px;
+}

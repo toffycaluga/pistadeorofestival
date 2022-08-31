@@ -1,0 +1,107 @@
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+.participate{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.participate .container-form{
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    grid-gap:50px;
+    margin-top:90px;
+}
+
+.participate .container-form h2{
+    margin-bottom:15px;
+    font-size: 35px;
+    color:darkred;
+}
+.participate .container-form p{
+    font-size:17px;
+    line-height: 1.6;
+    margin-bottom:30px;
+}
+.participate .container-form a{
+    font-size:17px;
+    display: inline-block;
+    text-decoration: none;
+    width: 100%;
+    margin-bottom: 15px;
+    color:#000;
+    font-weight: 700;
+}
+
+.participate .container-form a i{
+    color :orange;
+    margin-right: 10px;
+}
+
+.participate .container-form form .campo,textarea{
+    width: 90%;
+    padding: 15px 10px;
+    font-size:15px;
+    border: 1px solid #dbdbdb;
+    margin-bottom:20px;
+    border-radius:3px;
+    outline:0px;
+}
+.participate .container-form form textarea{
+    max-width: 530px;
+    min-width: 200px;
+    min-height:140px;
+    max-height: 150px;
+}
+.participate .container-form .button{
+    position: relative;
+    width: 70px;
+    height: 30px;
+    font-size: 15px;
+    background-color: darkred;
+    color: #fff;
+    border:none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition :width .5s,
+    border-radius .5s;
+}
+.participate .container-form .button *{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) ;
+    transition:opacity .25s;
+}
+.participate .container-form .icon{
+    opacity: 0;
+}
+
+.participate .container-form .button:focus{
+    width: 30px;
+    background-color:#44c08a;
+    border-radius: 50%;
+}
+.participate .container-form .button:focus .text{
+    opacity: 0
+}
+.participate .container-form .button:focus .icon{
+    opacity: 1;
+    transition-delay: .5s;
+}
+@media screen and (max-width:800px){
+    .participate .container-form{
+        width: 90%;
+        max-width: 1100px;
+        margin: auto;
+        display:grid;
+        grid-template-columns:repeat(1,1fr);
+        grid-gap:30px;
+        margin-top:60px;
+    }
+    
+}

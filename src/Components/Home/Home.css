@@ -1,0 +1,33 @@
+.home .home-container{
+    width: 100%;
+    max-width: 1200px;
+    margin:auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap:50px;
+    padding:45px 10px;
+}
+.home .home-container .home-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    align-items: center;
+   
+}
+.home .home-container .home-content img{
+    width: 50%;
+    border-radius:25px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:800px){
+    .home .home-container{
+        width: 90%;
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 30px;
+        padding:35px 0px;
+
+    }
+}

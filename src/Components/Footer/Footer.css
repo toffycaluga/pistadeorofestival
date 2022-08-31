@@ -1,0 +1,79 @@
+.footer{
+   width: 100%;
+   background-color:rgba(0, 0, 0, 0.322);
+   color:white;
+}
+
+.footer .group-1{
+    width: 100%;
+    max-width: 1200px;
+    margin:auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:50px;
+    padding:5px 0px;
+}
+.footer .federations{
+    width: 100%;
+    max-width: 1200px;
+    margin:auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap:50px;
+    padding:45px 0px;
+   
+
+}
+.footer .federations img{
+    width: 70%;
+    margin-left:65px;
+}
+.footer .group-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    align-items: center;
+}
+.footer .group-1 .box figure img{
+    width: 45%;
+}
+.footer .mincul{
+    width: 100%;
+    max-width: 1200px;
+    margin:auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap:50px;
+    padding:45px 0px;
+    
+}
+.footer .mincul img{
+    width: 100%;
+}
+.footer .mincul h4{
+    font-size: 90%;
+}
+.footer .mincul .item-1{
+    margin-top:55px;
+}
+.footer .group-2{
+    background-color: #0a1a2a;
+    padding:15px 10px;
+    text-align: center;
+    color:#fff;
+}
+footer .group-2 small{
+    font-size:15px;
+}
+
+@media screen and (max-width:800px){
+    .footer .group-1{
+        width: 90%;
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 30px;
+        padding:35px 0px;
+
+    }
+}

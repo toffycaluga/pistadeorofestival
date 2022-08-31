@@ -1,0 +1,42 @@
+.nav_home{
+    text-align: left;
+    padding: 0px 25px;
+}
+.nav_home ul{
+    list-style:none;
+    display:flex;
+    justify-self: left;
+}
+.nav_home ul li{
+    margin-left: 20px;
+    transition: all 0.5s;
+    /* background-color: rgba(255, 255, 255, 0.4) */
+}
+.nav_home ul li b{
+    color:darkred;
+    cursor: pointer;
+}
+.nav_home ul li a{
+    text-decoration: none;
+    color:darkred;
+    cursor: pointer;
+}
+.nav_home ul li:hover{
+    transform: scale(1.2);
+}
+.nav_home ul li b:hover{
+    color:crimson;
+    --webkit-text-shadow:#000000 ;
+}
+@media screen and (max-width:800px){
+    .nav_home{
+        text-align: left;
+        padding: 0px 0px;
+    }
+    .nav_home ul li{
+        margin-left: 8px;
+        font-size: 11px;
+        transition: all 0.5s;
+        /* background-color: rgba(255, 255, 255, 0.4) */
+    }
+}

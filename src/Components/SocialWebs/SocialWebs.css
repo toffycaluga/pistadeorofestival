@@ -1,0 +1,21 @@
+.social-webs{
+    text-align:right;
+    padding-right: 45px ;
+}
+.social-webs ul{
+    list-style: none;
+    display:flex;
+    justify-content: flex-end;
+}
+.social-webs ul li{
+    margin-right:20px;
+}
+.social-webs ul li a{
+    color:firebrick;
+    transition: all 0.5s;
+
+}
+
+.social-webs ul li a:hover{
+    color:darkred;
+}
