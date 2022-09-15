@@ -21,7 +21,9 @@ function Portada() {
             <img src={youtube} alt="canal del festival" />
             </div>
           <div className="home-content">
+            <a href="https://ticketplus.cl/events/festival-internacional-de-circo-en-chile">
             <img src={boletos} alt="boletos" />
+            </a>
             </div>
         </div>
         <div className="home-container">
