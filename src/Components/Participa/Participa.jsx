@@ -2,6 +2,7 @@ import React from 'react'
 import Formulario from './Formulario'
 import './Participa.css'
 import logo_festival from './../../assets/img/icons/logo_festival.png'
+import PostulcacionCerrada from './PostulcacionCerrada'
 
 function Participa() {
 
@@ -14,7 +15,8 @@ function Participa() {
                 <p>Se parte de este gran evento efectuado por el Sindicato de Artists Circenses de Chile.</p>
                 <img src={logo_festival} alt="" />
             </div>
-            <Formulario/>
+            {/* <Formulario/> */}
+            <PostulcacionCerrada></PostulcacionCerrada>
         </div>
 
     </div>
