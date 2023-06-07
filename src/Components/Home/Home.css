@@ -17,7 +17,8 @@
    
 }
 .home h1 ,.home h2{
-    color :darkred
+    color :darkred;
+    font-weight:bold
 }
 .home .home-container .home-content img{
     width: 50%;
